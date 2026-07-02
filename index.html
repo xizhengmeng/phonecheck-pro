@@ -19,6 +19,13 @@
     .features ul { list-style: none; }
     .features ul li { padding: 10px 0; border-bottom: 1px solid #e0e0e5; color: #3a3a3c; font-size: 1rem; }
     .features ul li::before { content: "✓  "; color: #34c759; font-weight: 700; }
+    .apps { max-width: 680px; margin: 60px auto; padding: 0 24px; }
+    .apps h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 16px; }
+    .app-list { border-top: 1px solid #e0e0e5; }
+    .app-link { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0; border-bottom: 1px solid #e0e0e5; color: #1d1d1f; text-decoration: none; }
+    .app-link strong { display: block; font-size: 1rem; margin-bottom: 4px; }
+    .app-link span { display: block; color: #6e6e73; font-size: 0.92rem; line-height: 1.45; }
+    .app-link em { color: #0071e3; font-style: normal; font-size: 0.92rem; white-space: nowrap; }
     footer { text-align: center; padding: 40px; color: #6e6e73; font-size: 0.85rem; }
     footer a { color: #0071e3; text-decoration: none; margin: 0 12px; }
   </style>
@@ -48,6 +55,25 @@
       <li>Biometrics — Face ID or Touch ID support</li>
       <li>Connectivity — Wi-Fi, Bluetooth, battery, vibration</li>
     </ul>
+  </div>
+  <div class="apps">
+    <h3>More Apps</h3>
+    <div class="app-list">
+      <a class="app-link" href="lineforge/">
+        <div>
+          <strong>LineForge</strong>
+          <span>Turn photos into printable line art, coloring pages, PDFs, and craft stencils.</span>
+        </div>
+        <em>Open</em>
+      </a>
+      <a class="app-link" href="helio/">
+        <div>
+          <strong>Helio Daily</strong>
+          <span>Track morning light sessions privately on device.</span>
+        </div>
+        <em>Open</em>
+      </a>
+    </div>
   </div>
   <footer>
     <p>© 2026 Shenghui Han</p>
